@@ -1,7 +1,8 @@
 # SQL Project: Sales Data
-Simple project in SQL that consisted of treating and analyzing a database. Ran using SQLite.
+Simple project in SQL that consisted of treating and running some exploratory commands on a database. Ran using [SQLite](https://sqliteonline.com/). SQLite docs available [here](https://www.sqlite.org/docs.html). 
 
-**_Note:_** _The text in the database is in Brazilian Portuguese._
+> [!NOTE]
+> To run the queries below and develop a project of your own, you can download the [sales database from this repository](https://github.com/biancainocencio/SQL-Project-Sales/blob/main/banco_de_dados_vendas.db). This was a simple study I conducted to brush up on some specific SQL skills I felt needed sharpening. This repo is not intended to be a fully developed data analysis project. Also, please, note that some of the text in the database is in Brazilian Portuguese.
 
 # Exploring the data
 > _If you want to use this project as a way to practice your SQL skills, I suggest you do some data exploration of your own and document it. Feel free to fork this project and work on top of it! I ran a few counts, understood the averages and max and min values of the columns, and analyzed the prices. In my data exploration, I noticed the prices were very weird, so I set a price interval for each product and treated the data to ensure the prices respected such intervals._
@@ -104,7 +105,6 @@ ORDER BY Year
 ```
 
 **2. Exploratory analysis on the performance of suppliers and categories**
-
 ```sql
 --Suppliers' performance during peak months
 SELECT 
@@ -180,3 +180,7 @@ The query above returns something of the sort:
 | Alimentos      | 21922      | 14.61%     |
 | Esportes       | 21782      | 14.52%     |
 | Livros         | 21610      | 14.40%     |
+
+From here, you can use R, Python, or Excel and Google Sheets to create your dashboards and reports and train some skills! 
+
+Have fun. 😸
